@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;  
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+}
+
+div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+    resize: both;
+    overflow: auto;
+    padding: 2px;
+}
+
+input[type=text]{
+    width: 10em;
+    padding: .2em;
+    display: inline-block;
+    box-sizing: border-box;
+    color: black;
+    border: 1em;
+}
+
+button[type=submit]:hover{
+    color: black;
+    background-color: violet;
+}
+
+@media only screen and (min-width: 720px){
+    body{
+        background-color: violet;
+        object-fit: fill;
+    }
+
+    button[type=submit]:hover{
+        background-color: violet;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    body{
+        background-color: lightblue;
+        object-fit: fill;
+    }
+
+    button[type=submit]:hover{
+        background-color: lightblue;
+    }
+}
