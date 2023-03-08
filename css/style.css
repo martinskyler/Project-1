@@ -25,7 +25,7 @@ div{
     color: white;
     resize: both;
     overflow: auto;
-    padding: 2px;
+    padding: 3px;
 }
 
 input[type=text], input[type=email]{
