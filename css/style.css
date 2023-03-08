@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-image: url(../images/background.gif);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 4em;
@@ -42,10 +42,9 @@ button[type=submit]:hover{
     background-color: violet;
 }
 
-@media only screen and (min-width: 720px){
+@media only screen and (min-width: 0px){
     body{
-        background-color: violet;
-        object-fit: fill;
+        background-image: url(../images/background.gif);
     }
 
     button[type=submit]:hover{
@@ -55,8 +54,7 @@ button[type=submit]:hover{
 
 @media only screen and (max-width: 1080px){
     body{
-        background-color: lightblue;
-        object-fit: fill;
+        background-image: url(../images/background.gif);
     }
 
     button[type=submit]:hover{
